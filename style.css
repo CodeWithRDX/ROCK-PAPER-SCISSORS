@@ -74,3 +74,48 @@ body{
 .hide{
     display: none;
 }
+
+@media (max-width: 600px) {
+    .container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .game {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .box {
+        width: 35vmin;
+        height: 35vmin;
+        gap: 0.8rem;
+    }
+
+    .box .material-symbols-outlined {
+        font-size: 12vmin;
+    }
+
+    .msg {
+        font-size: 6vmin;
+        padding: 1rem;
+    }
+
+    .score {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    #player,
+    #computer {
+        border: none;
+        padding: 0;
+    }
+
+    .navbar {
+        font-size: 5vmin;
+        padding: 0.8rem;
+    }
+}
